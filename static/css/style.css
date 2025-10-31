@@ -1,5 +1,11 @@
 :root {
-    font-size: 24px;
+    font-size: 16px;
+
+    /*FUENTES*/
+    --fs-body: 1rem;
+    --fs-h1: 2rem;
+    --fs-h2: 1.8rem;
+    --fs-h3: 1.5rem;
 }
 
 .ejemplo {
