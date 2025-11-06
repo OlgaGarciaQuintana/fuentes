@@ -23,7 +23,24 @@
 }
 
 /*Resto de selectores globales */
-
 p{
     font-size: var(--fs-body);
+}
+
+h2{
+    color: blue;
+}
+
+/*Header*/
+header{
+
+
+}
+
+/*Secciones*/
+
+
+/*Footer*/
+footer{
+
 }
