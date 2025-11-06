@@ -1,13 +1,29 @@
 :root {
     font-size: 16px;
+    /*Variables globales*/
+
+    /*Colores*/
+    --color-primary: white;
+    --color-secondary: white
+    --color-accent: white;
+
+    /*Espacios*/
+    --space-1: 10px;
+    --space-2: 15px;
+    --space-3: 20px;
+    --space-4: 30px;
 
     /*FUENTES*/
+    --fs_base: 16px;
     --fs-body: 1rem;
     --fs-h1: 2rem;
     --fs-h2: 1.8rem;
     --fs-h3: 1.5rem;
+    --fc-body: var(--color-accent);
 }
 
-.ejemplo {
-    font-size: .5rem;
+/*Resto de selectores globales */
+
+p{
+    font-size: var(--fs-body);
 }
